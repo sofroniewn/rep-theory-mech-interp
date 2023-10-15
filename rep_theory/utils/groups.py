@@ -1,13 +1,13 @@
 import os
 import torch
 import numpy as np
-from utils.plotting import *
+from rep_theory.utils.plotting import *
 from sympy.combinatorics.named_groups import SymmetricGroup as SymPySymmetricGroup
 from sympy.combinatorics import Permutation, PermutationGroup
 from scipy.spatial.transform import Rotation as R
 import math
 from tqdm import tqdm
-from utils.representations import *
+from rep_theory.utils.representations import *
 
 class Group:
     """

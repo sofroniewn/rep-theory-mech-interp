@@ -1,5 +1,5 @@
-from utils.plotting import fft2d
-from utils.models import loss_fn
+from rep_theory.utils.plotting import fft2d
+from rep_theory.utils.models import loss_fn
 import torch
 import torch.nn.functional as F
 import sys

@@ -1,6 +1,6 @@
-from utils.models import *
-from utils.metrics import *
-from utils.groups import *
+from rep_theory.utils.models import *
+from rep_theory.utils.metrics import *
+from rep_theory.utils.groups import *
 
 def load_cfg(task_dir):
     cfg_file = open(f"{task_dir}/cfg.json")

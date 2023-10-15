@@ -1,4 +1,4 @@
-from utils.plotting import *
+from rep_theory.utils.plotting import *
 
 
 def get_history_from_wb(keys, run):

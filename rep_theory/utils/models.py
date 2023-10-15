@@ -1,8 +1,8 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from utils.hook_points import HookPoint, HookedRootModule
-from utils.groups import *
+from rep_theory.utils.hook_points import HookPoint, HookedRootModule
+from rep_theory.utils.groups import *
 import numpy as np
 import json
 import sys
